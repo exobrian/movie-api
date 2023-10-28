@@ -1,5 +1,6 @@
-package com.exobrian.movies;
+package com.exobrian.movies.repository;
 
+import com.exobrian.movies.model.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

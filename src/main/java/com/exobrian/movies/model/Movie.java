@@ -1,4 +1,4 @@
-package com.exobrian.movies;
+package com.exobrian.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

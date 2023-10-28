@@ -1,6 +1,7 @@
-package com.exobrian.movies;
+package com.exobrian.movies.service;
 
-import org.bson.types.ObjectId;
+import com.exobrian.movies.model.Movie;
+import com.exobrian.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

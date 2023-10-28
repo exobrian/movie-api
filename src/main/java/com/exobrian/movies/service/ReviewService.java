@@ -1,5 +1,8 @@
-package com.exobrian.movies;
+package com.exobrian.movies.service;
 
+import com.exobrian.movies.model.Movie;
+import com.exobrian.movies.model.Review;
+import com.exobrian.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
